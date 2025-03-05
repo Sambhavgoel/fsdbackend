@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Aarav Sharma",
+      "class": 10,
+      "section": "A",
+      "roll_no": 1
+    },
+    {
+      "name": "Sanya Verma",
+      "class": 9,
+      "section": "B",
+      "roll_no": 2
+    },
+    {
+      "name": "Rohan Gupta",
+      "class": 11,
+      "section": "C",
+      "roll_no": 3
+    },
+    {
+      "name": "Meera Iyer",
+      "class": 12,
+      "section": "A",
+      "roll_no": 4
+    },
+    {
+      "name": "Kabir Malhotra",
+      "class": 8,
+      "section": "D",
+      "roll_no": 5
+    },
+    {
+      "name": "Ishita Roy",
+      "class": 7,
+      "section": "B",
+      "roll_no": 6
+    },
+    {
+      "name": "Vikram Choudhary",
+      "class": 6,
+      "section": "C",
+      "roll_no": 7
+    },
+    {
+      "name": "Neha Singh",
+      "class": 10,
+      "section": "D",
+      "roll_no": 8
+    },
+    {
+      "name": "Aditya Kulkarni",
+      "class": 9,
+      "section": "A",
+      "roll_no": 9
+    },
+    {
+      "name": "Pooja Nair",
+      "class": 11,
+      "section": "B",
+      "roll_no": 10
+    }
+  ]
+  
