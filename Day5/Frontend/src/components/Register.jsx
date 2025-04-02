@@ -8,7 +8,7 @@ const Register = ()=>{
             name : e.target.name.value,
             age : e.target.age.value
         }
-        await axios.post('http://localhost:9000/users',user)
+        await axios.post('https://fsdbackend-lczx.onrender.com/users',user)
         alert('User Registered Successfully')
     }
 

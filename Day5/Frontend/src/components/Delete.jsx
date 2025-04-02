@@ -5,7 +5,7 @@ function Delete() {
   const handleDelete = async(e)=>{
     e.preventDefault()
     const id = e.target.id.value;
-    await axios.delete(`http://localhost:9000/users/${id}`)
+    await axios.delete(`https://fsdbackend-lczx.onrender.com/users/${id}`)
     alert('Product deleted successfully')
   }
   return (
