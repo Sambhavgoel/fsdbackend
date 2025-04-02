@@ -13,6 +13,7 @@ const Register = ()=>{
     }
 
   return (
+    
     <div>
         <form action="" onSubmit={handleregister}>
 
