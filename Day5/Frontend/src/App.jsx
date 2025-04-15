@@ -4,10 +4,10 @@ import View from './components/View'
 import Delete from './components/Delete'
 import Update from './components/Update'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>User Registration System</h1>
+      <h1 style={{backgroundColor: 'darkmagenta',color:'white',fontSize:"3rem", textAlign:'center', margin:'0 auto'}}>User Registration System</h1>
       <Register/>
       <View/>
       <Delete/>
