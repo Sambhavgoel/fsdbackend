@@ -1,3 +1,18 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  /* align-items: center;
+  align-content: center; */
+  justify-content: center;
+
+
+}
+h1,.para{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
 .view-book-container {
     padding: 40px;
     max-width: 1200px;

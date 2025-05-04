@@ -23,14 +23,15 @@ const ViewBook = () => {
       
       <div style={{display:'flex',flexWrap: 'wrap',gap: "20px"}}>
         {
-          books.map((book)=>(
-            <div key={book._id}>
+          (books.length <= 0) ? (<h1 style={{fontSize:'15px', margin:'5px', color: '#999'}}>No Books are available to view</h1>):
+          (books.map((book)=>(
+            <div className='para' key={book._id}>
               <img src={book.image} style={{border: '1px solid green',borderRadius: '15px',width: '250px',height: '300px'}} />
               <h3>{book.title}</h3>
               <h2>{book.author}</h2>
               <h2>{book.date}</h2>
             </div>
-          ))
+          )))
         }
       </div>
     </div>
